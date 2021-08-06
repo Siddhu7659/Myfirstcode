@@ -1,0 +1,61 @@
+body{
+background-image : url('background.jpg');
+background-size : cover;
+background-attachment : fixed;
+
+}
+div{
+border: 2px black solid;
+border-radius: 10%;
+position: absolute;
+padding: 50px 5px 50px 115px;
+margin-top: 7%;
+margin-left: 35%;
+}
+img{
+height: 90px;
+width : 90px;
+border-radius: 50%;
+position : relative;
+top: -117px;
+left: 100px;
+}
+h3{
+position: relative;
+top: -100px;
+font-family:sanserif;
+}
+.username{
+margin-bottom: 35px;
+
+}
+.username:hover{
+opacity:0.8;
+
+}
+.submit{
+text-transform: uppercase;
+border: 2px grey solid;
+letter-spacing: 0.5px;
+cursor: hand;
+padding: 5px 90px 5px 90px;
+position: relative;
+top: -65px;
+color: black;
+font-size: 23px;
+text-decoration : none;
+background-color: lightgrey;
+}
+.submit:hover{
+opacity:0.7;
+}
+.fp{
+position: relative;
+top: -35px;
+left: -125px;
+cursor: hand;
+}
+.fp:hover{
+opacity: 0.7;
+}
+
